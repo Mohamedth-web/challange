@@ -1,0 +1,44 @@
+
+ 
+  
+/* ===============
+   1. global style
+================ */
+
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;}  
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'roboto';
+}
+.container{
+  background-color: #23424A;
+  color: white;
+  padding: 100px 60px;
+}
+.content{
+  max-width: 450px;
+}
+p{
+  font-weight: 200;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+button{
+  all: unset;
+  cursor: pointer;
+  font-family: 'roboto';
+  text-transform: uppercase;
+  color: #072A2D;
+  background-color: #38CFD9;
+  border-radius: 31.5px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 28px;
+  letter-spacing: 0.05em;
+}
